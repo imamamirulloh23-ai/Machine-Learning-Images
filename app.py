@@ -17,7 +17,7 @@ st.title("♻️ Klasifikasi Pemandangan Menggunakan Machine Learning")
 # ============================
 # Load Model
 # ============================
-model = tf.keras.models.load_model("keras_model.keras")
+model = tf.keras.models.load_model("keras_model.h5", compile=False)
 
 # ============================
 # Load Label
