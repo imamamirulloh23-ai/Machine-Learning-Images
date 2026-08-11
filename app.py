@@ -7,12 +7,12 @@ from PIL import Image
 # Konfigurasi Halaman
 # ============================
 st.set_page_config(
-    page_title="Klasifikasi Sampah AI",
+    page_title="Klasifikasi Pemandangan AI",
     page_icon="♻️",
     layout="centered"
 )
 
-st.title("♻️ Klasifikasi Sampah Menggunakan Machine Learning")
+st.title("♻️ Klasifikasi Pemandangan Menggunakan Machine Learning")
 
 # ============================
 # Load Model
@@ -31,7 +31,7 @@ with open("labels.txt", "r") as f:
 # Upload Gambar
 # ============================
 uploaded_file = st.file_uploader(
-    "Upload gambar sampah",
+    "Upload gambar Pemandangan",
     type=["jpg","jpeg","png"]
 )
 
